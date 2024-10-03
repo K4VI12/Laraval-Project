@@ -16,12 +16,12 @@
             <div class="flex h-16 items-center justify-between">
                 <div class="flex items-center">
                     <div class="flex-shrink-0">
-                        <img class="h-8 w-8" src="https://laracasts.com/images/logo/logo-triangle.svg" alt="Your Company">
+                        <img class="h-8 w-8" src="https://cdn.discordapp.com/attachments/1290620858318192697/1291349085910994996/0aac7ca9-1e22-45b9-a7d8-a8c105a97ae2.webp?ex=66ffc60e&is=66fe748e&hm=47bdf8f2b32010ebb622527a537d830e0eae97e3c968797226125f14da3bf8bc&" alt="Your Company">
                     </div>
                     <div class="hidden md:block">
                         <div class="ml-10 flex items-baseline space-x-4">
                             <x-nav-link href="/" :active="request()->is('/')">Home</x-nav-link>
-                            <x-nav-link href="/about" :active="request()->is('about')">About</x-nav-link>
+                            <x-nav-link href="/jobs" :active="request()->is('jobs')">Jobs</x-nav-link>
                             <x-nav-link href="/contact" :active="request()->is('contact')">Contact</x-nav-link>
                         </div>
                     </div>
@@ -42,7 +42,7 @@
                                 <button type="button" class="relative flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                                     <span class="absolute -inset-1.5"></span>
                                     <span class="sr-only">Open user menu</span>
-                                    <img class="h-8 w-8 rounded-full" src="https://laracasts.com/images/lary-ai-face.svg" alt="">
+                                    <img class="h-8 w-8 rounded-full" src="https://cdn.discordapp.com/attachments/1290620858318192697/1290621274074120265/kavindu.jpg?ex=66ffc33a&is=66fe71ba&hm=85bbca0968f3549f5d827f2fae76d0a32aa95ae768a5a43f6139e395724e91e6&" alt="">
                                 </button>
                             </div>
                         </div>
@@ -80,8 +80,8 @@
                         <img class="h-10 w-10 rounded-full" src="https://laracasts.com/images/lary-ai-face.svg" alt="">
                     </div>
                     <div class="ml-3">
-                        <div class="text-base font-medium leading-none text-white">Lary Robot</div>
-                        <div class="text-sm font-medium leading-none text-gray-400">jeffrey@laracasts.com</div>
+                        <div class="text-base font-medium leading-none text-white">Kavindu Hansaka</div>
+                        <div class="text-sm font-medium leading-none text-gray-400">kavinduhansaka@gmail.com</div>
                     </div>
                     <button type="button" class="relative ml-auto flex-shrink-0 rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                         <span class="absolute -inset-1.5"></span>
